@@ -1,5 +1,4 @@
 import { buildConfig } from 'payload/config';
-import Examples from './collections/Examples';
 import Movies from './collections/Movies';
 import Users from './collections/Users';
 
@@ -13,7 +12,7 @@ export default buildConfig({
     meta:{
       titleSuffix: 'peliculaz',
       favicon: 'https://imagenes-peliculaz.s3.amazonaws.com/peliculaZ-logo.svg',
-      ogImage: 'https://imagenes-peliculaz.s3.amazonaws.com/peliculaZ-logo.png'
+      ogImage: 'https://imagenes-peliculaz.s3.amazonaws.com/peliculaZ-logo.svg'
     },
     
     
@@ -22,7 +21,6 @@ export default buildConfig({
     Users,
     Movies
   ],
-  cors: '*',
-  csrf: ["https://www.peliculaz.xyz/"],
+  cors: '*'
   
 });
