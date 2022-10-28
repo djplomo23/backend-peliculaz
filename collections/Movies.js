@@ -58,9 +58,19 @@ const Movies = {
       ]
     },
     {
-      name: 'image',
-      type: 'text'
+      name: 'image', // required
+      type: 'upload', // required
+      relationTo: 'media', // required
+      required: true,
+      
+      //hooks: {afterRead: [({data: doc}) => (`https://imagenes-peliculaz.s3.amazonaws.com/${req.file.name}`)]},
+      
+      
     },
+      
+  
+   
+    
   ],
 };
 
