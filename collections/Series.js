@@ -1,6 +1,10 @@
 
 const Episodios = {
     slug: 'episodios', // required
+    access: {
+      read: () => true,
+      create: () => true
+    },
     imageURL: 'https://google.com/path/to/image.jpg',
     imageAltText: 'A nice thumbnail image to show what this block looks like',
     fields: [ // required
