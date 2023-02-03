@@ -52,7 +52,7 @@ const QuoteBlock = {
     minRows: 1,
     maxRows: 30,
     blocks: [
-        Temporadas
+        
     ]
     }
   ]
@@ -61,7 +61,7 @@ const QuoteBlock = {
 
 
 const Series = {
-  slug: 'movies',
+  slug: 'series',
   access: {
     read: () => true,
     create: () => true
@@ -122,7 +122,7 @@ const Series = {
       minRows: 1,
       maxRows: 1,
       blocks: [ // required
-       QuoteBlock
+      Temporadas
       ]
     }
     

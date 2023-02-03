@@ -11,7 +11,7 @@ import Media from './collections/Media';
 
 
 export default buildConfig({
-  //serverURL: 'http://localhost:3000',
+  //serverURL: 'http://localhost:4000',
 
  
  
