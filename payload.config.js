@@ -6,6 +6,7 @@ import Users from './collections/Users';
 import Login from './component/BeforeLogin'
 import s3Upload from 'payload-s3-upload';
 import Media from './collections/Media';
+import Carrusel from './collections/Carrusel';
 
 
 
@@ -30,6 +31,7 @@ export default buildConfig({
     Series,
     Animes,
     Media,
+    Carrusel,
     
   ],
  
