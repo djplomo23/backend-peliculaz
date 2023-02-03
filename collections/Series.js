@@ -61,7 +61,7 @@ const QuoteBlock = {
 
 
 const Series = {
-  slug: 'series',
+  slug: 'movies',
   access: {
     read: () => true,
     create: () => true
