@@ -120,7 +120,7 @@ const Series = {
       name: 'series', // required
       type: 'blocks', // required
       minRows: 1,
-      maxRows: 1,
+      maxRows: 30,
       blocks: [ // required
       Temporadas
       ]
