@@ -41,8 +41,8 @@ export default buildConfig({
     s3Upload({
       region: 'us-east-1',
       credentials: {
-        accessKeyId: 'AKIA5DRPSQG3YT3ZN56U',
-        secretAccessKey: '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',
+        accessKeyId: process.env.ACCESS_KEY_S3,
+        secretAccessKey: process.env.SECRET_ACCESS_KEY_S3,
       },
     }),
   ],
