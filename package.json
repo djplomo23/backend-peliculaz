@@ -1,5 +1,6 @@
 {
   "name": "payload-starter-javascript",
+  "homepage": "https://djplomo23.github.io/backend-peliculaz",
   "description": "Blank template - no collections",
   "version": "1.0.0",
   "engines": {
@@ -8,9 +9,11 @@
   "main": "server.js",
   "license": "MIT",
   "scripts": {
+    "predeploy": "npm run build",
     "dev": "nodemon",
     "build": "payload build",
-    "serve": "NODE_ENV=production node server.js"
+    "serve": "NODE_ENV=production node server.js",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
@@ -19,6 +22,7 @@
     "payload-s3-upload": "^1.1.2"
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "nodemon": "^2.0.6"
   }
 }
