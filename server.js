@@ -17,7 +17,7 @@ app.get('/', (_, res) => {
 
 // Initialize Payload
 payload.init({
-  baseURL: 'https://djplomo23.github.io/backend-peliculaz',
+  //baseURL: 'https://djplomo23.github.io/backend-peliculaz',
   secret: process.env.PAYLOAD_SECRET ,
   mongoURL: process.env.MONGODB_URI ,
   express: app,
