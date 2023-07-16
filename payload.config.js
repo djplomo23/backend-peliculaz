@@ -12,7 +12,7 @@ import Carrusel from './collections/Carrusel';
 
 
 export default buildConfig({
-  serverURL: 'https://djplomo23.github.io/',
+  //serverURL: 'https://djplomo23.github.io/',
 
  
  
