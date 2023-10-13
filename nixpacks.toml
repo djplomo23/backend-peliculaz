@@ -1,0 +1,4 @@
+# Ejemplo de nixpacks.toml para construcción con Node.js
+
+[build]
+providers = ["node"]
